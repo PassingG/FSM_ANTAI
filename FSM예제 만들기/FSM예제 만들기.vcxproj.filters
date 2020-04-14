@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\State">
+      <UniqueIdentifier>{fe0c32d9-7156-4bbc-9647-a6fa25515516}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Character">
+      <UniqueIdentifier>{588645a0-04a8-49bb-aafa-4782b602a7df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\State">
+      <UniqueIdentifier>{09ec0a8f-140d-4710-af6f-4531739dc03c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\Character">
+      <UniqueIdentifier>{4bc914d5-0a10-42c8-bf6a-aa38c57b7c14}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Ant.cpp">
+      <Filter>리소스 파일\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="DiningroomState.cpp">
+      <Filter>리소스 파일\State</Filter>
+    </ClCompile>
+    <ClCompile Include="HealroomState.cpp">
+      <Filter>리소스 파일\State</Filter>
+    </ClCompile>
+    <ClCompile Include="OutsideState.cpp">
+      <Filter>리소스 파일\State</Filter>
+    </ClCompile>
+    <ClCompile Include="StorageroomState.cpp">
+      <Filter>리소스 파일\State</Filter>
+    </ClCompile>
+    <ClCompile Include="AntcaveState.cpp">
+      <Filter>리소스 파일\State</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="enum.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="IState.h">
+      <Filter>소스 파일\State</Filter>
+    </ClInclude>
+    <ClInclude Include="OutsideState.h">
+      <Filter>소스 파일\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Ant.h">
+      <Filter>소스 파일\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="HealroomState.h">
+      <Filter>소스 파일\State</Filter>
+    </ClInclude>
+    <ClInclude Include="DiningroomState.h">
+      <Filter>소스 파일\State</Filter>
+    </ClInclude>
+    <ClInclude Include="StorageroomState.h">
+      <Filter>소스 파일\State</Filter>
+    </ClInclude>
+    <ClInclude Include="AntcaveState.h">
+      <Filter>소스 파일\State</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
